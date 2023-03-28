@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papernet | Login</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container-main flex">
+      <div class="container-left flex">
+        <img class="logo" src="Images/Papernet.png" alt="" />
+        <h1>
+          Start your <br />
+          journey with us.
+        </h1>
+        <p>
+          Effortlessly capture, organize, <br />
+          and access your notes anytime, anywhere.
+        </p>
+        <div class="feedback-container feedback-container1 flex">
+          <p>
+            I'm so grateful for Papernet! This app has made my life so much
+            easier. It's the perfect tool for organizing all my notes and ideas.
+          </p>
+          <div class="profile-container flex">
+          <img class="profile-pic" src="images/Profile1.jpg" alt="profile" />
+          <div class="profile-data-container flex">
+          <p class="profile-name">Timson K</p>
+          <p class="profile-position">Freelancer</p>
+        </div>
+      </div>
+    </div>
+        <div class="feedback-container feedback-container2 flex">
+          <p>
+            I've been using this notes app for a few weeks now and I have to say, I'm impressed! The interface is simple and easy to use, but it still has all the features I need to stay organized.
+          </p>
+          <div class="profile-container flex">
+          <img class="profile-pic" src="images/Profile2.jpg" alt="profile" />
+          <div class="profile-data-container flex">
+          <p class="profile-name">Rena R</p>
+          <p class="profile-position">Freelancer</p>
+        </div>
+      </div>
+    </div>
+        <div class="feedback-container feedback-container3 flex">
+          <p>
+            Love how I can easily create different notebooks for different topics and projects, and how I can quickly search through all my notes to find what I'm looking for.
+          </p>
+          <div class="profile-container flex">
+          <img class="profile-pic" src="images/Profile3.jpg" alt="profile" />
+          <div class="profile-data-container flex">
+          <p class="profile-name">Richard B</p>
+          <p class="profile-position">Freelancer</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-container flex">
+    <div class="first-review dot"></div>
+    <div class="second-review dot"></div>
+    <div class="third-review dot"></div>
+  </div>
+      </div>
+      <div class="container-right flex">
+        <h2>Sign up</h2>
+        <p class="already-account">Have an account? <a href="#">Log-in</a></p>
+<form action="/" method="post">
+        <p class="customization">
+          Customization
+        </p>
+
+        <div class="custom-container flex">
+
+          <div class="pro-container flex">
+        <input type="radio" name="custom" id="pro">
+        <label for="pro">Professional</label>
+      </div>
+
+      <div class="stu-container flex">
+        <input type="radio" name="custom" id="stu">
+        <label for="stu">Student</label>
+      </div>
+      </div>
+
+      <p class="email-p">
+        Email
+      </p>
+
+      <input type="email" id="email" size="60" required>
+      <p class="pass-p">
+        Password
+      </p>
+
+      <input type="password" id="pass" size="60" required minlength="8">
+      <svg class="show" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 19c.946 0 1.81-.103 2.598-.281l-1.757-1.757C12.568 16.983 12.291 17 12 17c-5.351 0-7.424-3.846-7.926-5 .204-.47.674-1.381 1.508-2.297L4.184 8.305c-1.538 1.667-2.121 3.346-2.132 3.379-.069.205-.069.428 0 .633C2.073 12.383 4.367 19 12 19zM12 5c-1.837 0-3.346.396-4.604.981L3.707 2.293 2.293 3.707l18 18 1.414-1.414-3.319-3.319c2.614-1.951 3.547-4.615 3.561-4.657.069-.205.069-.428 0-.633C21.927 11.617 19.633 5 12 5zM16.972 15.558l-2.28-2.28C14.882 12.888 15 12.459 15 12c0-1.641-1.359-3-3-3-.459 0-.888.118-1.277.309L8.915 7.501C9.796 7.193 10.814 7 12 7c5.351 0 7.424 3.846 7.926 5C19.624 12.692 18.76 14.342 16.972 15.558z"></path></svg>
+      <br>
+      <input type="checkbox" name="tncs" id="tncs" required>
+      <label for="tncs" id="label-tncs">By clicking submit you agree to our <a href="#">Privacy Policy </a> and <a href="#">Terms and Conditions</a>.</label>
+      <br>
+      <button id="btn" type="submit">Create account</button>
+      </form>
+      <a href="https://github.com/b-havesh" target="_blank"><img class="qr-code-img" src="./images/GitHub.png" alt=""></a>
+</div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
