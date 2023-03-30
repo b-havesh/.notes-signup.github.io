@@ -125,6 +125,13 @@ if(screen.width <= 650) {
     passInput.setAttribute('size', '20')
 }
 
+window.addEventListener('resize', () => {
+    if(screen.width <= 650) {
+        emailInput.setAttribute('size', '20');
+        passInput.setAttribute('size', '20')
+    }
+})
+
 // Select by clicking container
 
 let proContainer = document.querySelector('.pro-container');
